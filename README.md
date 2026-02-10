@@ -19,15 +19,5 @@ Quick usage
 - Copy `waybar/config.jsonc` and `waybar/style.css` into your Waybar configuration directory (commonly `~/.config/waybar/`).
 - Restart Waybar to apply the changes (e.g., `pkill waybar && waybar &`).
 
-Notes
 
-- These files are intended as examples and starting points. Tweak fonts, colors, module order, and modules to match your system and preferences.
-- This repo does not include binaries or installers — only config files.
 
-Contributing
-
-Feel free to open issues or submit pull requests with improvements, alternative layouts, or notes about compatibility with specific Hyprland/Waybar versions.
-
-License
-
-No license specified. If you want this repo licensed, add a `LICENSE` file.
