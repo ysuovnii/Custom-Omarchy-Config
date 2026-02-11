@@ -1,23 +1,23 @@
-# Custom-Omarchy-Config
+# Custom Omarchy Config
 
-A small collection of configuration snippets for locking and statusbar setups used with Hyprland/Wayland environments.
+My personal configuration setup for **Omarchy**.
 
-Repository structure
+This repository contains custom configs for:
+- Hyprland
+- Waybar
+- Hyprlock
+- Other related tools
 
-- `hyprlock/` — contains `hyprlock.conf` (main lock configuration). Use this to configure the locker (colors, fonts, layout, etc.).
-- `Original/` — a copy of the original `hyprlock.conf` kept for reference.
-- `waybar/` — contains `config.jsonc` and `style.css` for Waybar (status bar) layout and styling.
+## Purpose
 
-Quick usage
+I created this repo to:
+- Backup my configs
+- Track changes using Git
+- Easily restore my setup on another system
 
-1. Hyprlock
-- Choose the configuration you want from `hyprlock/` (or `Original/` as a base).
-- Place the chosen `hyprlock.conf` in your Hyprland locker's expected location (example path may be `~/.config/hyprlock/hyprlock.conf` or where your lock program reads it).
-- Restart or reload your lock/locker service as required by your setup.
+## Installation
 
-2. Waybar
-- Copy `waybar/config.jsonc` and `waybar/style.css` into your Waybar configuration directory (commonly `~/.config/waybar/`).
-- Restart Waybar to apply the changes (e.g., `pkill waybar && waybar &`).
+Clone the repository:
 
-
-
+```bash
+git clone https://github.com/ysuovnii/Custom-Omarchy-Config.git
